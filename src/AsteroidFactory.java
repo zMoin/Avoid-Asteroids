@@ -25,7 +25,7 @@ public class AsteroidFactory {
 		moveBounds.width += 1;
 	}
 
-	/** Makes a new asteroid **/
+	/** Makes a new star (as an asteroid for now)**/
 	public static Asteroid makeStars() {
 		Asteroid str = new StarImpl((int) startBounds.getHeight(), random(0,
 				(int) startBounds.getWidth()), random(1, 5), random(1, 5),
